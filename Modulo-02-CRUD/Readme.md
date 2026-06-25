@@ -22,53 +22,19 @@ Ao tentar acessar o sistema o mesmo poderá seguir os caminhos abaixo:
 - Digita senha inválida para entrar no sistema: O sistema apresenta uma mensagem (Alerta) e limpa o campo de senha.
 - Digita senha válida para entrar no sistema: O sistema apresenta uma mensagem (Informação) de “Boas Vindas” e em seguida, tela principal do aplicativo que será o cadastro de Pacientes.
 
-### 3. Modelo Físico do Banco de Dados
-Agora que o modelo lógico está pronto, a próxima etapa é sua implementação no banco de dados. Escreva o código SQL para a criação do banco e das tabelas, considerando a seguinte estrutura:
-- Cargos
-- Funcionários
-- Hospedes
-- Guias
-- Agendamentos
+### 3. Telas de Cadastro
+O cadastro de Médicos será apresentado com os itens conforme tela abaixo. Outras telas de cadastros como: Pacientes e Recém-nascidos devem seguir o mesmo padrão de tela deste cadastro com os dados conforme pedido na introdução. Crie um título centralizado na janela com a descrição “Plataforma – Lyon Company Maternidades”, implemente Menus/Guias: | Médicos | | Pacientes | | Recém-Nascidos | | CADASTRAR | | CONSULTAR | |Login|. Neste módulo precisamos deixar todos os formulários de cadastros funcionais, e será necessário cadastrar e testar todas as telas, Ao clicar no Menu: “CADASTRAR” abrirá sub-menus com as seguintes opções(uma abaixo da outra): Médicos, Pacientes, Recém-Nascidos. Uma observação que tanto na Tela de Cadastro de Médicos quanto na Tela de Cadastro de Pacientes será necessario o cadastro de foto de perfil. Funcionários do setor Administrativo poderão realizar todos os cadastros, colaboradores do setor “Saúde” terão permissão de cadastrar apenas: “Pacientes e Recém-Nascidos”.
 
-Crie um script SQL contendo as declarações de criação Do banco e das tabelas (CREATE TABLE), definição de chaves primárias e estrangeiras, além da aplicação de restrições de integridade. (Entregue o documento do Modelo Físico em
-SQL no diretório/drive escolhido dos Avaliadores).
-Crie e execute um arquivo SQL contendo os comandos INSERT necessários para popular e testar o Banco de Dados da Green Oasis Resorts. O arquivo deverá conter registros para todas as tabelas do projeto físico, respeitando as chaves primárias, chaves estrangeiras e os relacionamentos entre as tabelas.
+<img width="440" height="443" alt="image" src="https://github.com/user-attachments/assets/f4d9b507-2a83-4837-a327-b665c5e0ad73" />
 
-Quantidade mínima exigida de inserts:  
-- Tabela Cargos: Mínimo de 5 registros.
-- Tabela Funcionarios: Mínimo de 8 registros.
-- Tabela Guias: Mínimo de 3 registros.
-- Tabela Hóspedes: Mínimo de 6 registros.
-- Tabela Agendamentos: Mínimo de 6 registros.
 
-Entrega: O script de criação das tabelas deve ser salvo como green_oasis.sql. 
-O script deverá ser executado no SQL Server Management Studio (SSMS) sem apresentar erros, garantindo que todos os relacionamentos estejam funcionando corretamente. (Entregue o documento do Modelo Físico em SQL no diretório/drive escolhido dos Avaliadores).
+### 4. Botoões e Ações
 
-### 4. Dicionário de Dados
+Ao clicar em “CADASTRAR” deverá abrir uma mensagem de informação dizendo “Processo Cadastrado Com Sucesso!”, assim que o cadastro for realizado limpe os campos, caso o cadastro não for realizado exibir uma mensagem “Erro ao Tentar Cadastrar!!!”. Ao clicar em “EDITAR” deverá exibir uma mensagem “Alteração Salva com Sucesso!”, e finalmente clicando em “DELETAR” exibir uma mensagem “Tem Certeza que deseja Excluir ‘Campo_de_Exemplo’ ?” caso resposta da mensagem seja “SIM/YES” deletar a linha do banco de dados conforme a chave primária, caso seja “NÃO/NO” não excluir e voltar a página de cadastro. Faça o mesmo em outros cadastros.
 
-A equipe de TI da Gaia Horizon precisa transformar o modelo lógico em um Dicionário de Dados, seguindo as boas práticas de normalização. Considerando o MER criado anteriormente, construa Dicionário de dados do banco utilizando o anexo *Dicionário de Dados*, especificando:
-- Nome das tabelas
-- Atributos e seus tipos de dados
-- Chaves primárias e estrangeiras
-- Relacionamentos entre tabelas
-
-Explique como a normalização foi aplicada para evitar redundâncias e garantir a integridade dos dados. (Entregue em documento do Excel e salve no diretório/drive escolhido dos Avaliadores).
-
-### 5. Diagrama de Casos de Uso
-A arquitetura de segurança do sistema desktop deve delimitar com clareza o escopo de atuação de cada perfil de usuário (Atores), bloqueando acessos indevidos logo na camada de interface. Você deve criar um Diagrama de Casos de Uso baseado nas seguintes regras e restrições da descrição geral do projeto.
-
-Entrega: Salve o arquivo do diagrama em formato PDF/Imagem com o nome useCase_GreenOasisResorts.pdf
-
-### 6. Diagrama de Atividades
-Para validar a lógica comportamental e o fluxo de permissões que seu software desktop executará, você deve elaborar um Diagrama de Atividades que represente o processo completo de "Agendamento de Atividade Ecológica". Como o Guia Turístico e o Administrador agora operam essa tela, o fluxo deve cobrir obrigatoriamente os cenários, ramificações e concorrências que envolvem este processo de ponta a ponta.
-
-Entrega: Salve o diagrama em formato PDF/Imagem com o nome activity_GreenOasisResorts.pdf
-
-### 7. Entregas
-- Entrega o Modelo entidade Relacionamento em PDF/Imagem no diretório/drive escolhido dos Avaliadores.
-- Entrega o Modelo Lógico (Banco de Dados) em PDF/Imagem no diretório/drive escolhido dos Avaliadores.
-- Entrega o Modelo Físico/INSERTs em SQL no diretório/drive escolhido dos Avaliadores.
-- Entrega o Dicionário de Dados em Excel no diretório/drive escolhido dos Avaliadores.
-- Entrega do Diagrama de Casos de Uso em PDF/Imagem no diretório/drive escolhido dos Avaliadores.
-- Entrega do Diagrama de Atividades em PDF/Imagem no diretório/drive escolhido dos Avaliadores.
+### 5. Entregas
+- Telas de Login (Funcional com comunicação com o banco de dados) entregue no diretório indicado pelos avaliadores, salvar o projeto e criar uma pasta /bin com executável do aplicativo desktop.
+- Telas de cadastro de Médicos (Cadastrando funcionalmente no banco de dados).
+- Telas de cadastro de Paceinte (Cadastrando funcionalmente no banco de dados).
+- Telas de cadastro de Recém-Nascidos (Cadastrando funcionalmente no banco de dados).
 
