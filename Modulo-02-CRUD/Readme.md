@@ -9,24 +9,18 @@ A Lyon Company iniciará um novo projeto, uma plataforma desktop para a Maternid
 
 ## Descrição do Projeto e das Tarefas
 
-### 1. Modelo Entidade-Relacionamento (MER)
+### 1. Autenticação
 
-A estrutura do banco de dados deve garantir estrita integridade referencial. Considere as seguintes regras de negócio obrigatórias:
-- Um Guia pode ser responsável pelo acompanhamento de vários hóspedes, mas um hóspede pertencerá e será assessorado por apenas um guia preferencial em seu pacote.
-- Um cargo pode estar associado a múltiplos funcionários, e cada funcionário terá apenas um cargo ativo na empresa.
-- Um Agendamento deve pertencer a apenas um hóspede titular, enquanto um hóspede pode realizar nenhum ou vários agendamentos durante sua estadia.
+Ao rodar o aplicativo, a primeira tela que será apresentada é a tela para entrada do usuário. O usuário deverá preencher o E-mail e a Senha, sobre o campo senha precisa ser mascarado. Caso seja um email não cadastrado na tabela Funcionário, apresenta uma mensagem de aviso (Email Não Cadastrado). Caso contrário, apresentar a tela de cadastro de Pacientes.
 
-Elabore um Modelo Entidade-Relacionamento (MER) utilizando a notação adequada, identificando claramente as cardinalidades e chaves identificadoras, contrua também outras entidades necessárias segundo a introdução do módulo caso for preciso. Entregue a imagem do Modelo Entidade-Relacionamento em PDF/WORD no diretório/drive escolhido dos Avaliadores.
+<img width="425" height="266" alt="Captura de tela 2026-06-25 112734" src="https://github.com/user-attachments/assets/eb99f2b9-1fe1-4f96-9505-c9849219b04d" />
 
-### 2. Modelo Lógico do Banco de Dados
 
-Transforme o MER gerado em um modelo lógico que obedeça às regras de normalização para mitigar redundâncias. O diagrama deve explicitar:  
-- Nome padronizado das tabelas.
-- Atributos com seus respectivos tipos de dados
-- Chaves Primárias e Estrangeiras.
-- Relacionamentos entre tabelas.
+### 2. Usuário do aplicativo
 
-Escreva um breve texto justificando de que forma as regras de integridade e a normalização foram aplicadas para proteger o ecossistema de dados. Entregue a imagem do Modelo Lógico em PDF/WORD no diretório/drive escolhido dos Avaliadores.
+Ao tentar acessar o sistema o mesmo poderá seguir os caminhos abaixo:
+- Digita senha inválida para entrar no sistema: O sistema apresenta uma mensagem (Alerta) e limpa o campo de senha.
+- Digita senha válida para entrar no sistema: O sistema apresenta uma mensagem (Informação) de “Boas Vindas” e em seguida, tela principal do aplicativo que será o cadastro de Pacientes.
 
 ### 3. Modelo Físico do Banco de Dados
 Agora que o modelo lógico está pronto, a próxima etapa é sua implementação no banco de dados. Escreva o código SQL para a criação do banco e das tabelas, considerando a seguinte estrutura:
