@@ -14,3 +14,4 @@ Este repositório contém simulados baseados nos padrões da seletiva da WorldSk
 * [Módulo 4: Dashboards](./Modulo-04-Dashboards/)
 * [CIS](./CIS/)
 
+Desenvolvido com foco na preparação para competições da ocupação #09 - Soluções de Software para Negócios da WorldSkills.
