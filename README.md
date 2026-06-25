@@ -15,4 +15,4 @@ Este repositório contém simulados baseados nos padrões da seletiva da WorldSk
 * [CIS](./CIS/)
 
 #
-Desenvolvido com foco na preparação para competições da ocupação #09 - Soluções de Software para Negócios da WorldSkills.
+Desenvolvido com foco na preparação para competições da ocupação **#09 - Soluções de Software para Negócios da WorldSkills**.
