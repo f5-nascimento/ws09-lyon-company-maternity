@@ -50,7 +50,7 @@ O script deverá ser executado no SQL Server Management Studio (SSMS) sem aprese
 
 ### 4. Dicionário de Dados
 
-A equipe de TI da Gaia Horizon precisa transformar o modelo lógico em um Dicionário de Dados, seguindo as boas práticas de normalização. Considerando o MER criado anteriormente, construa Dicionário de dados do banco utilizando o anexo *Dicionário de Dados*, especificando:
+A equipe de TI da Lyon Company Maternidades precisa transformar o modelo lógico em um Dicionário de Dados, seguindo as boas práticas de normalização. Considerando o MER criado anteriormente, construa Dicionário de dados do banco utilizando o anexo “Modelo de Dicionário de Dados 2026”, especificando:
 - Nome das tabelas
 - Atributos e seus tipos de dados
 - Chaves primárias e estrangeiras
