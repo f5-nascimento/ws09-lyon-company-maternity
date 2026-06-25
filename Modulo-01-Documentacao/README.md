@@ -61,12 +61,12 @@ Explique como a normalização foi aplicada para evitar redundâncias e garantir
 ### 5. Diagrama de Casos de Uso
 A arquitetura de segurança do sistema desktop deve delimitar com clareza o escopo de atuação de cada perfil de usuário (Atores), bloqueando acessos indevidos logo na camada de interface. Você deve criar um Diagrama de Casos de Uso baseado nas seguintes regras e restrições da descrição geral do projeto.
 
-Entrega: Salve o arquivo do diagrama em formato PDF/Imagem com o nome useCase_GreenOasisResorts.pdf
+Entrega: Salve o arquivo do diagrama em formato PDF/Imagem com o nome useCase_LyonCompanyMaternity.pdf
 
 ### 6. Diagrama de Atividades
-Para validar a lógica comportamental e o fluxo de permissões que seu software desktop executará, você deve elaborar um Diagrama de Atividades que represente o processo completo de "Agendamento de Atividade Ecológica". Como o Guia Turístico e o Administrador agora operam essa tela, o fluxo deve cobrir obrigatoriamente os cenários, ramificações e concorrências que envolvem este processo de ponta a ponta.
+Para validar a lógica comportamental e o fluxo de permissões que seu software desktop executará, você deve elaborar um Diagrama de Atividades que represente o processo completo de Médicos. Como o Pacientes e o Recém-Nascido agora operam essa tela, o fluxo deve cobrir obrigatoriamente os cenários, ramificações e concorrências que envolvem este processo de ponta a ponta.
 
-Entrega: Salve o diagrama em formato PDF/Imagem com o nome activity_GreenOasisResorts.pdf
+Entrega: Salve o diagrama em formato PDF/Imagem com o nome activity_LyonCompanyMaternity.pdf
 
 ### 7. Entregas
 - Entrega o Modelo entidade Relacionamento em PDF/Imagem no diretório/drive escolhido dos Avaliadores.
