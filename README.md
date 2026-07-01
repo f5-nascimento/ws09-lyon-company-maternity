@@ -6,6 +6,12 @@ Este repositório contém simulados baseados nos padrões da seletiva da WorldSk
 
 * [Instalação e Configuração do Ambiente de Desenvolvimento](./Ambiente/)
 
+
+## 📂 Recursos
+
+* [DataFiles](./DataFiles/)
+* [Guia de Estilos](./Guia-Estilos/)
+
 ## 📌 Módulos
 
 * [Módulo 1: Documentação](./Modulo-01-Documentacao/)
