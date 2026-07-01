@@ -95,7 +95,7 @@ Você deve implementar uma tela que permita ao usuário visualizar dados de seto
 - Telas de cadastro de Médicos (Cadastrando funcionalmente no banco de dados).
 - Telas de cadastro de Paceinte (Cadastrando funcionalmente no banco de dados).
 - Telas de cadastro de Recém-Nascidos (Cadastrando funcionalmente no banco de dados).
-- - Telas de Consulta de Médicos funcional, de acordo com o descritivo da prova.
+- Telas de Consulta de Médicos funcional, de acordo com o descritivo da prova.
 - Telas de Consulta de Pacientes funcional, de acordo com o descritivo da prova.
 - Telas de Consulta de Recém-Nascidos funcional, de acordo com o descritivo da prova.
 - Açoes e funcionalidades das Telas de consultas. de acordo com o descritivo da prova.
