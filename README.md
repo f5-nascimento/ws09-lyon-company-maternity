@@ -18,6 +18,7 @@ Este repositório contém simulados baseados nos padrões da seletiva da WorldSk
 * [Módulo 2: CRUD](./Modulo-02-CRUD/) 
 * [Módulo 3: Telas de Consulta e Filtros](./Modulo-03-Consultas/) 
 * [Módulo 4: Dashboards](./Modulo-04-Dashboards/)
+* [Módulo 5: Mobile](./Modulo-05-Mobile/)
 
 ## 📝 Avaliação
 
