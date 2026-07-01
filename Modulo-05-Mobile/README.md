@@ -17,7 +17,8 @@ A Lyon Company iniciará um novo projeto, uma plataforma desktop para a Maternid
 
 Ao rodar o aplicativo, a primeira tela que será apresentada é a tela para entrada do usuário. O usuário deverá preencher o E-mail e a Senha, sobre o campo senha precisa ser mascarado. Caso seja um email não cadastrado na tabela Funcionário, apresenta uma mensagem de aviso (Email Não Cadastrado). Caso contrário, apresentar a tela de cadastro de Pacientes.
 
-<img width="425" height="266" alt="Captura de tela 2026-06-25 112734" src="https://github.com/user-attachments/assets/eb99f2b9-1fe1-4f96-9505-c9849219b04d" />
+<img width="1536" height="2752" alt="lyon-login-mobile" src="https://github.com/user-attachments/assets/b7c25638-e24d-4012-9021-a09a012c9e0e" />
+
 
 
 ### 2. Usuário do aplicativo
