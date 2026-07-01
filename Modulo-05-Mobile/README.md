@@ -56,7 +56,7 @@ Funcionários do setor Administrativo poderão realizar todas as consultas, cola
 
 Ao clicar no botão com nome “CONSULTAR” deverá buscar no banco segundo a chave primária da tabela indicada do cadastro e mostrar os dados daquela linha de registro solicitada pela consulta. Caso não encontre nenhum registro com aquela chave primária exibir a mensagem “Consulta Não Localizada!”.
 
-Para otimizar o processo de consulta vamos criar outro botão com nome “LIMPAR”, este terá a função de limpar todos os dados digitados em uma primeira consulta, implemente este botão com uma cor diferente do botão “Consultar”, lembre-se sempre de utilizar apenas nossas paletas de cores indicadas em anexo no “DataFiles/Guias de Estilos”. As demais telas de Consulta devem seguir o mesmo padrão deta abaixo.
+Para otimizar o processo de consulta vamos criar outro botão com nome “LIMPAR”, este terá a função de limpar todos os dados digitados em uma primeira consulta, implemente este botão com uma cor diferente do botão “Consultar”, lembre-se sempre de utilizar apenas nossas paletas de cores indicadas em anexo no “DataFiles/Guias de Estilos”. As demais telas de Consulta devem seguir o mesmo padrão.
 
 ### 7. Detalhamento do Projeto Desktop
 
