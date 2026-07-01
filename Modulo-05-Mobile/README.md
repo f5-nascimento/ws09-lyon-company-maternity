@@ -47,9 +47,9 @@ Funcionários do setor “Administrativo” poderão realizar todas as consultas
 
 ### 6. Ações em Pesquisas de Consultas
 
-Na tela de consultas abaixo crie um título centralizado na janela com a descrição “Plataforma – Lyon Company Maternidades”. Vamos entender melhor como funcionará a ação de invocar esta tela pesquisas de consultas específicas: Na tela pricincipal “Cadastro de Pacientes” ao clicar no Sub-Menu : “| CONSULTAR |” esta tela de pesquisa de consulta será exibida de forma centralizada, com consultas de todos os atributos e dados da tabela invocada conforme o seu Sub-Menu escolhido “Médicos, Pacientes, Recém-nascidos”.
+Na tela de consultas abaixo crie um título centralizado no topo da tela com a descrição “Plataforma – Lyon Company Maternidades”. Vamos entender melhor como funcionará a ação de invocar esta tela de pesquisas de consultas específicas: Na tela principal “Cadastro de Pacientes”, ao acionar na barra de navegação a opção: “| CONSULTAR |”, a tela de pesquisa de consulta será exibida, com consultas de todos os atributos e dados da tabela invocada conforme a opção escolhida: “Médicos, Pacientes, Recém-nascidos”.
 
-Funcionários do setor Administrativo poderão realizar todas as consultas, colaboradores do setor “Saúde” terão permissão de acessar apenas consultas de: “Pacientes e Recém-Nascidos”. Atenção ao fechar a janela de pesquisas de consultas a tela principal “Cadastro de Pacientes” deve ser exibida novamente.
+Funcionários do setor Administrativo poderão realizar todas as consultas, colaboradores do setor “Saúde” terão permissão de acessar apenas consultas de: “Pacientes e Recém-Nascidos”. Atenção: ao fechar a tela de pesquisas de consultas, a tela principal “Cadastro de Pacientes” deve ser exibida novamente.
 
 <img width="1536" height="2752" alt="lyon-consultaID-mobile" src="https://github.com/user-attachments/assets/be829b96-de80-46e9-b72d-52aefbece89a" />
 
