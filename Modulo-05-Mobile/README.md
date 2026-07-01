@@ -30,7 +30,8 @@ Ao tentar acessar o sistema o mesmo poderá seguir os caminhos abaixo:
 ### 3. Telas de Cadastro
 O cadastro de Médicos será apresentado com os itens conforme tela abaixo. Outras telas de cadastros como: Pacientes e Recém-nascidos devem seguir o mesmo padrão de tela deste cadastro com os dados conforme pedido na introdução. Crie um título centralizado na janela com a descrição “Plataforma – Lyon Company Maternidades”, implemente Menus/Guias: | Médicos | | Pacientes | | Recém-Nascidos | | CADASTRAR | | CONSULTAR | |Login|. Neste módulo precisamos deixar todos os formulários de cadastros funcionais, e será necessário cadastrar e testar todas as telas, Ao clicar no Menu: “CADASTRAR” abrirá sub-menus com as seguintes opções(uma abaixo da outra): Médicos, Pacientes, Recém-Nascidos. Uma observação que tanto na Tela de Cadastro de Médicos quanto na Tela de Cadastro de Pacientes será necessario o cadastro de foto de perfil. Funcionários do setor Administrativo poderão realizar todos os cadastros, colaboradores do setor “Saúde” terão permissão de cadastrar apenas: “Pacientes e Recém-Nascidos”.
 
-<img width="440" height="443" alt="image" src="https://github.com/user-attachments/assets/f4d9b507-2a83-4837-a327-b665c5e0ad73" />
+<img width="1536" height="2752" alt="lyon-medicos-mobile" src="https://github.com/user-attachments/assets/e2e254e9-7c3b-490a-b83c-7efe4d9a0137" />
+
 
 
 ### 4. Botoões e Ações
