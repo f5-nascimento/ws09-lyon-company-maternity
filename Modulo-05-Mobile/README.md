@@ -58,15 +58,16 @@ Ao clicar no botão com nome “CONSULTAR” deverá buscar no banco segundo a c
 
 Para otimizar o processo de consulta vamos criar outro botão com nome “LIMPAR”, este terá a função de limpar todos os dados digitados em uma primeira consulta, implemente este botão com uma cor diferente do botão “Consultar”, lembre-se sempre de utilizar apenas nossas paletas de cores indicadas em anexo no “DataFiles/Guias de Estilos”. As demais telas de Consulta devem seguir o mesmo padrão.
 
-### 7. Detalhamento do Projeto Desktop
+### 7. Detalhamento do Projeto Mobile
 
-A Lyon Company iniciará o desenvolvimento de uma plataforma desktop independente voltada ao gerenciamento e monitoramento de informações hospitalares da rede de maternidades da empresa. O sistema terá como principal objetivo centralizar dados administrativos, indicadores médicos e registros relacionados aos recém-nascidos, proporcionando maior controle, organização e apoio estratégico para os gestores da instituição.
+A Lyon Company iniciará o desenvolvimento de uma aplicação móvel independente voltada ao gerenciamento e monitoramento de informações hospitalares da rede de maternidades da empresa. O aplicativo terá como principal objetivo centralizar dados administrativos, indicadores médicos e registros relacionados aos recém-nascidos, proporcionando maior controle, organização e apoio estratégico para os gestores da instituição.
 
 A aplicação contará com dashboards interativos e gráficos dinâmicos capazes de apresentar informações em tempo real sobre setores administrativos e da saúde, além de indicadores estatísticos relacionados aos tipos de parto realizados, como partos normais e cesáreas. Essas informações permitirão que os administradores acompanhem métricas importantes da maternidade de forma simples, visual e eficiente.
 
-Além dos dashboards, o sistema disponibilizará consultas completas dos registros de recém-nascidos, permitindo visualizar dados relevantes como médico responsável, nome da mãe, peso do recém-nascido, tamanho, data e hora de nascimento, bem como observações médicas importantes para acompanhamento hospitalar.
+Além dos dashboards, o aplicativo disponibilizará consultas completas dos registros de recém-nascidos, permitindo visualizar dados relevantes como médico responsável, nome da mãe, peso do recém-nascido, tamanho, data e hora de nascimento, bem como observações médicas importantes para acompanhamento hospitalar.
 
-A plataforma será desenvolvida com foco em usabilidade, desempenho e segurança da informação, garantindo que os dados sensíveis armazenados possam ser acessados de maneira organizada e confiável. O sistema também deverá oferecer uma estrutura moderna e intuitiva, auxiliando os profissionais da maternidade na análise de dados, no acompanhamento clínico e na tomada de decisões administrativas.
+A plataforma móvel será desenvolvida com foco em usabilidade, desempenho e segurança da informação, garantindo que os dados sensíveis armazenados possam ser acessados de maneira organizada e confiável. O aplicativo também deverá oferecer uma estrutura moderna e intuitiva, auxiliando os profissionais da maternidade na análise de dados, no acompanhamento clínico e na tomada de decisões administrativas.
+
 
 ### 8. Autenticação
 
