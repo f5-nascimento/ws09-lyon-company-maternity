@@ -29,9 +29,9 @@ O cadastro de Médicos será apresentado com os itens conforme tela abaixo. Outr
 
 
 
-### 4. Botoões e Ações
+### 4. Botões e Ações
 
-Ao clicar em “CADASTRAR” deverá abrir uma mensagem de informação dizendo “Processo Cadastrado Com Sucesso!”, assim que o cadastro for realizado limpe os campos, caso o cadastro não for realizado exibir uma mensagem “Erro ao Tentar Cadastrar!!!”. Ao clicar em “EDITAR” deverá exibir uma mensagem “Alteração Salva com Sucesso!”, e finalmente clicando em “DELETAR” exibir uma mensagem “Tem Certeza que deseja Excluir ‘Campo_de_Exemplo’ ?” caso resposta da mensagem seja “SIM/YES” deletar a linha do banco de dados conforme a chave primária, caso seja “NÃO/NO” não excluir e voltar a página de cadastro. Faça o mesmo em outros cadastros.
+Ao clicar em “CADASTRAR” deverá abrir uma mensagem de informação dizendo “Processo Cadastrado Com Sucesso!”, assim que o cadastro for realizado limpe os campos, caso o cadastro não for realizado exibir uma mensagem “Erro ao Tentar Cadastrar!!!”. Ao clicar em “EDITAR” deverá exibir uma mensagem “Alteração Salva com Sucesso!”, e finalmente clicando em “DELETAR” exibir uma mensagem “Tem Certeza que deseja Excluir ‘Campo_de_Exemplo’?” caso resposta da mensagem seja “SIM/YES” deletar a linha do banco de dados conforme a chave primária, caso seja “NÃO/NO” não excluir e voltar à tela de cadastro. Faça o mesmo em outros cadastros.
 
 ### 5. Ações em Consultas Gerais de Tabela
 
