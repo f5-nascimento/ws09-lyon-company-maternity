@@ -69,25 +69,14 @@ Além dos dashboards, o aplicativo disponibilizará consultas completas dos regi
 A plataforma móvel será desenvolvida com foco em usabilidade, desempenho e segurança da informação, garantindo que os dados sensíveis armazenados possam ser acessados de maneira organizada e confiável. O aplicativo também deverá oferecer uma estrutura moderna e intuitiva, auxiliando os profissionais da maternidade na análise de dados, no acompanhamento clínico e na tomada de decisões administrativas.
 
 
-### 8. Autenticação
-
-Você deve implementar uma tela de login independente da outra tela de login que será carregada sempre que o usuário abrir a aplicação: ControleMaternidades. Essa tela deve permitir que o usuário insira credenciais para acessar a aplicação:
-
-1. Essa tela de login deve possuir um campo para inserção de Email e outro para a senha do usuário.
-- Somente usuários do tipo “Administrativo” poderão acessar a aplicação.
-- Você deve implementar validações para login e senha, além de mensagens adequadas informando para o usuário caso ele tenha digitado informações incorretas ou não possua acesso à aplicação por não ser “Administrativo”.
-2. O usuário só poderá entrar na aplicação caso insira login e senha válidos (presentes nos dados originais fornecidos).
-3. Quando o usuário inserir credenciais válidas, então ele deverá ser direcionado para a tela “Controle Maternidades”, descrita mais abaixo.
-
-
-### 9. Tela de Controle
+### 8. Tela de Controle
 Você deve implementar uma tela que permita ao usuário visualizar dados de setores e de recem nascidos, bem como informações em um pequeno dashboard, conforme layout a seguir (todas as informações devem consumir dados do banco de dados atual):
 
 <img width="1536" height="2752" alt="lyon-dashboard-mobile" src="https://github.com/user-attachments/assets/dc13c9b0-ad42-4cd6-9708-a414062954d6" />
 
 
 ### 10. Entregas
-- Telas de Login (Funcional com comunicação com o banco de dados) entregue no diretório indicado pelos avaliadores, salvar o projeto e criar uma pasta /bin com executável do aplicativo desktop.
+- Telas de Login (Funcional com comunicação com o banco de dados) entregue no diretório indicado pelos avaliadores, salvar o projeto e criar uma pasta /bin com executável do aplicativo mobile.
 - Telas de cadastro de Médicos (Cadastrando funcionalmente no banco de dados).
 - Telas de cadastro de Paceinte (Cadastrando funcionalmente no banco de dados).
 - Telas de cadastro de Recém-Nascidos (Cadastrando funcionalmente no banco de dados).
@@ -102,8 +91,8 @@ Você deve implementar uma tela que permita ao usuário visualizar dados de seto
 - Tabela de Consulta de Recém-Nascidos, exibindo médico responsável, nome da mãe, peso, tamanho, data de nascimento, hora de nascimento e observações relevantes.
 - Integração completa com o Banco de Dados, garantindo que todos os gráficos, tabelas e consultas sejam alimentados pelos dados cadastrados.
 - Validações e mensagens ao usuário, informando erros de login, senha incorreta, usuário inexistente ou ausência de permissão administrativa.
-- Projeto Desktop completo, salvo no diretório indicado pelos avaliadores, contendo todos os arquivos-fonte organizados.
-- Pasta /bin com o executável da aplicação desktop, permitindo a execução do sistema sem necessidade de abrir o ambiente de desenvolvimento.
+- Projeto Mobile completo, salvo no diretório indicado pelos avaliadores, contendo todos os arquivos-fonte organizados.
+- Pasta /bin com o executável da aplicativo mobile, permitindo a execução do sistema sem necessidade de abrir o ambiente de desenvolvimento.
 
 
 
