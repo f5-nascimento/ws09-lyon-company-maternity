@@ -28,18 +28,18 @@ O cadastro de Médicos será apresentado com os itens conforme tela abaixo. Outr
 <img width="1536" height="2752" alt="lyon-medicos-mobile" src="https://github.com/user-attachments/assets/e2e254e9-7c3b-490a-b83c-7efe4d9a0137" />
 
 
-
 ### 4. Botões e Ações
 
 Ao clicar em “CADASTRAR” deverá abrir uma mensagem de informação dizendo “Processo Cadastrado Com Sucesso!”, assim que o cadastro for realizado limpe os campos, caso o cadastro não for realizado exibir uma mensagem “Erro ao Tentar Cadastrar!!!”. Ao clicar em “EDITAR” deverá exibir uma mensagem “Alteração Salva com Sucesso!”, e finalmente clicando em “DELETAR” exibir uma mensagem “Tem Certeza que deseja Excluir ‘Campo_de_Exemplo’?” caso resposta da mensagem seja “SIM/YES” deletar a linha do banco de dados conforme a chave primária, caso seja “NÃO/NO” não excluir e voltar à tela de cadastro. Faça o mesmo em outros cadastros.
 
 ### 5. Ações em Consultas Gerais de Tabela
 
-Uma tela de consulta de dados é uma ferramenta essencial para qualquer sistema de gerenciamento do software e suas aplicações. Neste projeto referente a consulta de Médicos, Pacientes e Recém-nascidos seu resultado deverá aparecer no formato abaixo. As demais telas de Consulta devem seguir o mesmo padrão desta abaixo. 
+Uma tela de consulta de dados é uma ferramenta essencial para qualquer sistema de gerenciamento. Neste projeto referente à consulta de Médicos, Pacientes e Recém-nascidos seu resultado deverá aparecer no formato abaixo. As demais telas de Consulta devem seguir o mesmo padrão desta abaixo.
 
-Na tela de consultas abaixo crie um título centralizado na janela com a descrição “Plataforma – Lyon Company Maternidades”. Vamos entender melhor como funcionará a ação de invocar esta tela de consultas: Na tela pricincipal “Cadastro de Pacientes” ao clicar nos Menus/Guias: “| Médicos | | Pacientes | | Recém-Nascidos |” esta tela de consultas gerais será exibida de forma centralizada automaticamente com consultas de todos os atributos e dados da tabela invocada conforme o seu Menu/Guia. 
+Na tela de consultas abaixo crie um título centralizado no topo da tela com a descrição “Plataforma – Lyon Company Maternidades”. Vamos entender melhor como funcionará a ação de invocar esta tela de consultas: Na tela principal “Cadastro de Pacientes”, ao acionar na barra de navegação as opções: “| Médicos | | Pacientes | | Recém-Nascidos |”, a respectiva tela de consultas gerais será exibida automaticamente com consultas de todos os atributos e dados da tabela invocada.
 
-Funcionários do setor “Administrativo” poderão realizar todas as consultas, colaboradores do setor “Saúde” terão permissão de acessar apenas consultas de: “Pacientes e Recém-Nascidos”. Atenção ao fechar tela de consultas gerais a tela principal “Cadastro de Pacientes” deve ser exibida novamente.ntes.
+Funcionários do setor “Administrativo” poderão realizar todas as consultas, colaboradores do setor “Saúde” terão permissão de acessar apenas consultas de: “Pacientes e Recém-Nascidos”. Atenção: ao fechar a tela de consultas gerais, a tela principal “Cadastro de Pacientes” deve ser exibida novamente.
+
 
 <img width="1536" height="2752" alt="lyon-consultas-mobile" src="https://github.com/user-attachments/assets/80b8f8c6-593d-4984-bf3e-180d22191731" />
 
