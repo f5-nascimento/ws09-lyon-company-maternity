@@ -75,8 +75,8 @@ Você deve implementar uma tela que permita ao usuário visualizar dados de seto
 <img width="1536" height="2752" alt="lyon-dashboard-mobile" src="https://github.com/user-attachments/assets/dc13c9b0-ad42-4cd6-9708-a414062954d6" />
 
 
-### 10. Entregas
-- Telas de Login (Funcional com comunicação com o banco de dados) entregue no diretório indicado pelos avaliadores, salvar o projeto e criar uma pasta /bin com executável do aplicativo mobile.
+### 9. Entregas
+- Telas de Login (Funcional com comunicação com o banco de dados).
 - Telas de cadastro de Médicos (Cadastrando funcionalmente no banco de dados).
 - Telas de cadastro de Paceinte (Cadastrando funcionalmente no banco de dados).
 - Telas de cadastro de Recém-Nascidos (Cadastrando funcionalmente no banco de dados).
@@ -84,7 +84,6 @@ Você deve implementar uma tela que permita ao usuário visualizar dados de seto
 - Telas de Consulta de Pacientes funcional, de acordo com o descritivo da prova.
 - Telas de Consulta de Recém-Nascidos funcional, de acordo com o descritivo da prova.
 - Açoes e funcionalidades das Telas de consultas. de acordo com o descritivo da prova.
-- Tela de Login funcional, independente da tela principal, com validação de e-mail, senha e permissão apenas para usuários do tipo Administrativo, integrada ao banco de dados.
 - Tela Principal “Controle Maternidades”, carregada somente após autenticação válida do usuário administrativo.
 - Dashboard de Funcionários por Setor, exibindo gráfico de barras com a quantidade de funcionários dos setores Administrativo, Saúde e outros setores cadastrados no banco.
 - Dashboard de Partos dos Recém-Nascidos, exibindo gráfico de pizza com a porcentagem de partos Normal e Cesárea, consumindo dados reais do banco.
@@ -93,6 +92,7 @@ Você deve implementar uma tela que permita ao usuário visualizar dados de seto
 - Validações e mensagens ao usuário, informando erros de login, senha incorreta, usuário inexistente ou ausência de permissão administrativa.
 - Projeto Mobile completo, salvo no diretório indicado pelos avaliadores, contendo todos os arquivos-fonte organizados.
 - Pasta /bin com o executável da aplicativo mobile, permitindo a execução do sistema sem necessidade de abrir o ambiente de desenvolvimento.
+
 
 
 
