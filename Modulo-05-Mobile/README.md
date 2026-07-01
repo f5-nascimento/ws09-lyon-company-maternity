@@ -83,12 +83,12 @@ Você deve implementar uma tela de login independente da outra tela de login que
 2. O usuário só poderá entrar na aplicação caso insira login e senha válidos (presentes nos dados originais fornecidos).
 3. Quando o usuário inserir credenciais válidas, então ele deverá ser direcionado para a tela “Controle Maternidades”, descrita mais abaixo.
 
-<img width="391" height="268" alt="image" src="https://github.com/user-attachments/assets/3809a410-fdf5-4cac-b695-80e810bd5b45" />
 
 ### 9. Tela de Controle
 Você deve implementar uma tela que permita ao usuário visualizar dados de setores e de recem nascidos, bem como informações em um pequeno dashboard, conforme layout a seguir (todas as informações devem consumir dados do banco de dados atual):
 
-<img width="592" height="400" alt="image" src="https://github.com/user-attachments/assets/69b8aad0-31ec-45a9-9996-ff633397d53f" />
+<img width="1536" height="2752" alt="lyon-dashboard-mobile" src="https://github.com/user-attachments/assets/dc13c9b0-ad42-4cd6-9708-a414062954d6" />
+
 
 ### 10. Entregas
 - Telas de Login (Funcional com comunicação com o banco de dados) entregue no diretório indicado pelos avaliadores, salvar o projeto e criar uma pasta /bin com executável do aplicativo desktop.
